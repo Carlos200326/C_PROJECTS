@@ -1,0 +1,30 @@
+Os scripts em C sao caracterizados da seguinte maneira: 
+
+Instrucoes sao separadas por ponto e virgulas;
+
+Em C, existe os tipos: int, float, double, char
+
+Dados podem ser catalogados ou armazenados na forma de vetores (que sao
+porcoes da memoria que armazenam o dado de acordo com o tipo)
+
+Em C existe modificadores de largura e modificadores de sinal.
+
+Modificadores de sinal: unsigned e signed. Aplicando-se apenas aos tipo int e char. Modificam 
+o sinal, afetando a representacaoo de valores.
+
+Modificadores de largura: short, long, long long. Alteram o espaco ocupado pelo tipo.
+
+Short (int) = 2 bytes
+
+long int = 4 bytes
+
+long double = 12 bytes a 16 bytes (varia com o Sistema Operacional)
+
+long long int = 8 bytes
+
+Funcoes recebem parametros com tipos definidos dentro de parenteses jjunto ao nome das variaveis
+e o tipo de valor retornado pela funcao deve ser explicito antes do nome da funcao. 
+Todo o conteudo ou instrucoes referentes a uma funcao devera esta delimitado por 
+chaves (corpo da funcao).
+
+Importante: sempre documente o seu codigo e realize a identacao sobre o mesmo.
