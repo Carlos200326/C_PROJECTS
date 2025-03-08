@@ -28,7 +28,7 @@ main(int argc, char **argv)
 	/* Imprime na saida padrao de dados (console) a soma
 	 e a media dois inteiros a e b. */
 
-	printf("\nInteiros a = %d, b = %d\n Soma = %d \n Media = %f\n", a,b ,soma,media);
+	printf("\nInteiros a = %d, b = %d\nSoma = %d\nMedia = %f\n", a,b ,soma,media);
 
 	printf("\nNumero de argumentos recebidos = %d. Argv[0] = %s\n",argc,argv[0]);
 
@@ -41,6 +41,7 @@ main(int argc, char **argv)
 	printf("\nA variavel media ocupa %lu bytes na memoria.\n", sizeof(media));
 
 
-	return OK;
+	return OK; /* Instrucao que quando executada retorna o valor 0 ao Sistema Operacional indicando que o programa foi executado sem erros.
+	Ou seja, significa que se conseguiu alcancar o objetivo do programa. */
 
 }
