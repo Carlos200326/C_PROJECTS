@@ -28,9 +28,18 @@ main(int argc, char **argv)
 	/* Imprime na saida padrao de dados (console) a soma
 	 e a media dois inteiros a e b. */
 
-	printf("\nInteiros a = %d, b = %d \n Soma = %d \n Media = %f\n", a,b ,soma,media);
+	printf("\nInteiros a = %d, b = %d\n Soma = %d \n Media = %f\n", a,b ,soma,media);
 
 	printf("\nNumero de argumentos recebidos = %d. Argv[0] = %s\n",argc,argv[0]);
+
+	/* Imprime no console (saida padrao de dados) a quantidade de  memoria em bytes ocupada pelas
+	   variaveis a, b, soma e media. */
+
+	printf("\nVariavel a ocupa %lu bytes na memoria. Variavel b ocupa %lu bytes na memoria e variavel soma ocupa %lu bytes na memoria.\n",
+			sizeof(a),sizeof(b),sizeof(soma));
+
+	printf("\nA variavel media ocupa %lu bytes na memoria.\n", sizeof(media));
+
 
 	return OK;
 
