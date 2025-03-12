@@ -50,6 +50,16 @@
 #define PURPLE_SUB								"\033[4;35m"
 #define CYAN_SUB								"\033[4;36m"
 
+
+/* ----- Letras sublinhadas e em negrito ----- */
+#define BLACK_SUB_BOLD								"\033[1;4;30m"
+#define RED_SUB_BOLD								"\033[1;4;31m"
+#define GREEN_SUB_BOLD								"\033[1;4;32m"
+#define YELLOW_SUB_BOLD								"\033[1;4;33m"
+#define BLUE_SUB_BOLDd								"\033[1;4;34m"
+#define PURPLE_SUB_BOLD								"\033[1;4;35m"
+#define CYAN_SUB_BOLD								"\033[1;4;36m"
+
 /* ------- Letras em italico -------- */
 #define BLACK_ITALIC								"\033[3;30m"
 #define RED_ITALIC								"\033[3;31m"
