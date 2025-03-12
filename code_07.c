@@ -41,7 +41,7 @@ main(int argc, char **argv)
 
 		/* Imprime o valor que a variavel de controle cont assume a cada interacao, ao termino de cada
 		   interacao cont eh atualizada em uma unidade. */
-		printf("\n"CYAN_SUB_BOLD"Cont vale %u"RESET"\n",cont); /* Imprime na cor azul no modo sublinhado e em negrito. */
+		printf("\n"CYAN_SUB_BOLD"Cont vale %u"RESET"\n",cont); /* Imprime na cor ciano no modo sublinhado e em negrito. */
 
 	}
 	
