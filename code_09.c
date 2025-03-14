@@ -5,7 +5,7 @@
 	Date: 03-12-2025								
 	RJ, Brazil								
 										
-	Description:								
+	Description: This program aims to test the break command to close repeating slabs. 								
 										
 										
 
