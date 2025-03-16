@@ -5,10 +5,8 @@
 	Date: - -								
 	RJ, Brazil								
 										
-	Description: Program receives by entrances through the terminal the sides of a triangle. 								
-										
-										
-
+	Description: Program receives by entrances through the terminal the sides of a triangle. 
+	The program indicates the classification of the triangle: equilateral, isosceles, scalene, impossible, degenerate. 								
 =================================================================================
 
  */
@@ -206,6 +204,39 @@ main (int argc, char **argv)
 			b,
 			c
 		);
+
+	if(a == b && b == c) /* Tres lados iguais => Triangulo Equilatero */
+	{
+
+		fprintf(stdout, "\n"CYAN_BOLD"Triangulo Equilatero"RESET"\n");
+
+	}
+	else if( a == b || b == c) /* Quando ha pelo menos dois lados iguais => Triangulo Isosceles. */
+	{
+		
+
+		fprintf(stdout, "\n"CYAN_BOLD"Triangulo Isosceles"RESET"\n");
+		
+	}
+	else /* Quando todos os lados sao diferentes => Triangulo Escaleno */
+	{
+		
+		fprintf(stdout, "\n"CYAN_BOLD"Triangulo Escaleno"RESET"\n");
+
+	}
+
+	if(c > a + b || a > b + c || b > a + c) /* Quando existe um lado que e maior que a soma dos outros dois lados => Impossivel */
+	{
+	
+		fprintf(stdout, "\n"RED_BOLD"Impossivel"RESET"\n");
+	}
+	if(c == a + b || b == a + c || a == b + c) /* Quando existe um lado que igual a soma dos outros dois lados => Triangulo Degenerado */
+	{
+
+		
+		fprintf(stdout, "\n"CYAN_BOLD"Triangulo Degenerado"RESET"\n");
+
+	}
 
 	exit(OK); /* Finaliza o programa, retornando o valor 0 ao Sistema Operacional indicando sucesso na execucao do programa. */
 
